@@ -5,6 +5,7 @@ trigger accountTrigger on Account (before insert , before update, before delete,
     {
         if(trigger.isInsert || trigger.isUpdate)
         {
+        //
           for(Account acc : trigger.new)
           {
               if(acc.Phone == Null)
