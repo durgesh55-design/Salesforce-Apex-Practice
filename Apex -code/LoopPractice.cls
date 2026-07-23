@@ -1,4 +1,5 @@
-public class LoopPractice{
+public class LoopPractice
+{
     //Write a method to print 2 table using while loop
     public static void method1(){
         
@@ -109,4 +110,4 @@ public class LoopPractice{
         
     }
     
-    
+}

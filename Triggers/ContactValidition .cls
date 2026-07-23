@@ -1,5 +1,7 @@
 public class ContactTriggerHandler {
 
+//This method is used to check the contact record count for a specific account before inserting or updating a contact. If the count exceeds 3, it will throw an error.
+
     public static void BeforeInsertBeforeUpdate(List<Contact>NewList)
     {
         Set<id> conset = new Set<id>();
