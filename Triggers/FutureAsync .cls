@@ -19,6 +19,7 @@ public class FutureAsync
         Case ca = new Case();
         ca.Origin='web';
         ca.Status='New';
+
         
         Insert ca;
         System.debug(ca);
