@@ -1,9 +1,23 @@
 public class ScheduleDemo Implements Schedulable {
 
+
+ @future public static void FutureMethod()
+    {
+        Account acc = new Account();
+        acc.Name='KGP';
+        acc.Phone='0987654321';
+        acc.Rating='Hot';
+        Insert acc;
+    }
+
 // This method is used to schedule the class to run at a specific time and frequency
 
   public void execute(SchedulableContext SC)
   {
+
+    ScheduleDemo.FutureMethod(); // Call the future method to insert an Account record asynchronously
+
+
       List<Case>LMClosedCases = [SELECT Id FROM Case WHERE ClosedDate = Last_N_Days:15];
       
       Delete LMClosedCases; 
