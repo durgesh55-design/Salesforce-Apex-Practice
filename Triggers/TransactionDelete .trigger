@@ -13,11 +13,9 @@ trigger TransactionTrigger on Transaction__c (before delete) {
     );
 
     for (Transaction__c tran : Trigger.old) {
-        if (tran.Bank__c != null) {
-            tran.addError(
-                'You cannot delete this Transaction because it is connected to Bank: '
-                + banks.get(tran.Bank__c).Name
-            );
+        if (tran.Bank__c != null)
+         {
+            tran.addError('You cannot delete this Transaction because it is connected to Bank:);
         }
     }
 }
