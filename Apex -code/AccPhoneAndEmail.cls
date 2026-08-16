@@ -1,3 +1,5 @@
+// Batch class to update phone numbers for accounts
+
 public class BatchPhone implements database.batchable<sObject>
 {
     public Database.queryLocator start(Database.BatchableContext SBC)
