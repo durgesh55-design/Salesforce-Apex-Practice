@@ -1,6 +1,7 @@
 public class Polymorphism
 {
-
+ //Method Overloading
+ 
     public static void PolyMethod()
     {
         Integer a = 10;
