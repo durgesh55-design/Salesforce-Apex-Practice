@@ -1,6 +1,6 @@
 trigger ContactTrigger on Contact (Before Insert , Before Update , Before Delete , After Insert , After Update , After Delete , After Undelete) 
 {
-//ContactTriggerHandler.BeforeInsertBeforeUpdate(trigger.new);
+//allowing the trigger to run for before insert and before update events
 
     if(trigger.isBefore)
     {
