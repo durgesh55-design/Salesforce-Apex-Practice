@@ -21,6 +21,12 @@ trigger PositionTrigger on Position__c (before insert) {
             if (pos.Max_Pay__c == null) {
                 pos.Max_Pay__c = 15000;
             }
+            // Populate Status if it is blank
+            if (pos.Status__c == null) {
+                pos.Status__c = 'Open';
+            }
+
+
         }
     }
 }
