@@ -1,4 +1,6 @@
-  public static void AfterUpdate(List<Contact>NewList)
+public class ContactUpdateAccount
+{
+ public static void AfterUpdate(List<Contact>NewList)
     {
          Map<Id, String> conMap = new Map<Id, String>();
         
