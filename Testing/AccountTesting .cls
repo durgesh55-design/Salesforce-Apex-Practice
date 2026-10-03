@@ -1,8 +1,6 @@
 AccountTriggerHandlerTest
 @istest public class AccountTriggerHandlerTest 
-{
-    //Acc
-
+{  
     @istest private static void BeforeDeletetest()
     {
         Account acc = New Account();
