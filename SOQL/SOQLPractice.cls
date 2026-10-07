@@ -11,6 +11,38 @@ public class SOQLPractice {
             WHERE Active__c = TRUE
         ];
 
+
+
+
+
+dwedwaedsc c ,cc
+
+dwd
+wed
+Dd
+D
+d
+DD
+D
+D
+Sad
+ASD
+Sd
+sD
+ASd
+sD
+asd
+sDs
+
+
+
+
+
+
+
+
+
+
         // Get Contacts from Hyderabad
         List<Contact> conList = [
             SELECT Id, FirstName, LastName, Email, MailingCity
@@ -22,3 +54,5 @@ public class SOQLPractice {
         System.debug('Hyderabad Contacts: ' + conList);
     }
 }
+
+
