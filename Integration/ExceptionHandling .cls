@@ -1,5 +1,6 @@
-ublic class ExceptionHandlingDemo 
+public class ExceptionHandlingDemo 
 {
+   //Exception Handling Account and Contact Record Deta.
     public static void exceptionMethod()
     {
         Account acc = new Account();
