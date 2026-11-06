@@ -1,4 +1,4 @@
-when ever a record is inserted to the contact automatically inserted to the account  
+//when ever a record is inserted to the contact automatically inserted to the account  
   
 trigger scenario2 on Contact (after insert) {  
     if(Recursive.flag)  
