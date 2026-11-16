@@ -34,6 +34,5 @@ trigger AccNumberCreatedCon on Account (After Insert , After Update)
     if(!Conlist.isEmpty())
     {
         Insert conlist;
-    }
-
+    }    
 }
