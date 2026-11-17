@@ -1,6 +1,8 @@
-public class AccountRatingNotification {
+public class AccountRatingNotification 
+{
 
-    public static void sendNotification(Set<Id> accountIds) {
+    public static void sendNotification(Set<Id> accountIds) 
+    {
 
         // Get Custom Notification Type
         CustomNotificationType notificationType = [
@@ -11,8 +13,7 @@ public class AccountRatingNotification {
         ];
 
         // Create notification
-        Messaging.CustomNotification notification =
-            new Messaging.CustomNotification();
+        Messaging.CustomNotification notification = new Messaging.CustomNotification();
 
         notification.setTitle('Account Rating Changed');
 
